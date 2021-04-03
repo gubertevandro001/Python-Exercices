@@ -5,8 +5,8 @@ numero = int(input("Digite um Número Para Vermos se Ele é Primo: "))
 
 count = 0
 
-for i in range(1, numero):
+for i in range(1, numero+1):
     if numero % i == 0:
         count += 1
 
-print('É Primo' if count == 1 else 'Não é Primo!')
+print('É Primo' if count == 2 else 'Não é Primo!')
